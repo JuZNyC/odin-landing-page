@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header, #content-one, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 8%;
+}
+#header-logo {
+    size: 28px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 20px;
+}
+
+#content-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+
+#hero-image {
+    display: flex;
+    height: 220px;
+    width: 500px;
+    background-color: #808080;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+
+#content-one-hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#content-one-hero-secondary-text {
+    width: 400px;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+#content-three {
+    background-color: #E5E7EB;
+}
+
+#hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+    padding: 5px 20px;
+}
+
+#content-two-hero-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#content-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 19%;
+    gap: 50px;
+    
+}
+
+.card {
+    border: #3882F6 4px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card-subtext {
+    color: #8f8f91;
+    width: 150px;
+    text-align: center;
+}
+
+#content-three {
+    background-color: #E5E7EB;
+    padding: 20px 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+#quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px 30px;
+    text-align: right;
+}
+
+
+

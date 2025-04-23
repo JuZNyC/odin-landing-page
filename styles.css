@@ -72,6 +72,7 @@ body {
     -o-border-radius: 6px;
     border: none;
     padding: 5px 20px;
+    font-weight: 600;
 }
 
 #content-two {
